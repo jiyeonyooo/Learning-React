@@ -1,10 +1,14 @@
 import './App.css';
-import LearningSetState from './learning-setstate.js';
+import ClassComponent from './classComponent.js';
+import FunctionComponent from './functionComponent.js';
+import EventHandle from './eventhandle.js';
 
 function App() {
   return (
     <div className="App">
-      <LearningSetState />
+      <ClassComponent />
+      <FunctionComponent />
+      <EventHandle />
     </div>
   );
 }
