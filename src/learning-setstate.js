@@ -3,7 +3,7 @@ import { Component } from 'react';
 class LearningSetState extends Component {
     state = {
         number: 0,
-        fixedNumber: 10
+        fixedNumber: 7
     };
     render() {
         const { number, fixedNumber } = this.state;
